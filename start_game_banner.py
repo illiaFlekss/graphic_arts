@@ -1,11 +1,11 @@
-from asciimatics.renderers import FigletText, Fire
-from asciimatics.renderers import SpeechBubble
-from asciimatics.scene import Scene
-from asciimatics.screen import Screen
+import sys
+
 from asciimatics.effects import Print
 from asciimatics.exceptions import ResizeScreenError
+from asciimatics.renderers import FigletText, Fire, SpeechBubble
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
 from pyfiglet import Figlet
-import sys
 
 
 def animation(screen):
